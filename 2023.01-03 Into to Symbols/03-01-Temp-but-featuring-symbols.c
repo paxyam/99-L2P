@@ -9,11 +9,12 @@
 #define STEP 20 /*step size*/
 
 /* print fahrenheit celsius table*/
-main ()
+int main ()
 {
     int FAHR;
     for (FAHR = LOWER; FAHR <= UPPER; FAHR = FAHR + STEP)
         printf("%3d %6.1f\n", FAHR, (5.0/9.0)*(FAHR-32));
+    return 0;
 }
 
 //UPPER, LOWER, and STEP are symbolic constants, not vairables, so they do not appear
