@@ -20,6 +20,7 @@ impenetrable code isnt always most desired, you can program every aspect
 but doing so leads to user error, and bugs
 
 c = getchar() ! = EOF
+
 is equivalent to
 
 c = (getchar () ! = EOF)

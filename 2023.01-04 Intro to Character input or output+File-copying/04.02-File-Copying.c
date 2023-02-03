@@ -3,6 +3,11 @@
 using the previous lesson of 'getchar' and 'putchar'
 you can write much without knowwing much about i/o
 
+Read a Character
+While (character is not EOF indicator)
+Output the character just read
+Read a Character
+
 #include <stdio.h>
 main()
 {
